@@ -14,6 +14,11 @@ export default function LandingPageSection(){
                 <div className="absolute top-0 left-0 w-3/5 h-full bg-white transform origin-top-left -skew-x-12 text-center ">
                     <h1 className='text-black'><b>Jamii Ya </b><b className='text-green-600'>Wakulima shupavu</b></h1>
                     <h2 className='text-green-600'><b>Mafunzo </b><b className='text-black'>ya kuboresha kilimo</b></h2>
+
+                    {/* landing page button */}
+                    <div >
+                        <button className=' bg-green-600'>Je, una swali? Uliza na utajibiwa</button>
+                    </div>
                 </div>
             </div>
             
