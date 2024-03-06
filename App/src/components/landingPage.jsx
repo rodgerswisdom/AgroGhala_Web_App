@@ -3,6 +3,7 @@ import landingPageImage from '../assets/images/landing_page.jpg'
 export default function LandingPageSection(){
     return(
         <>
+        <h1>Site under Development</h1>
             <div  className="w-full h-full bg-black relative">
                 <img
                     src={landingPageImage}
