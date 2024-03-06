@@ -1,7 +1,12 @@
 const BlogList = ()=>{
     return(
-        <div>
-            
+        <div className="featured">
+            <div className="list">
+                <img
+                    src={}
+                    alt = "corn seeds"
+                />
+            </div>
         </div>
     );
 }
