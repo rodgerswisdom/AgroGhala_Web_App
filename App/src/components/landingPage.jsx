@@ -9,8 +9,8 @@ export default function LandingPageSection(){
                     alt = "landpage"
                     width={'100%'}
                 />
-                <div  className="w-full h-full bg-white static text-center">
-                    <div className='text-green-500'>
+                <div  className="absolute top-0 left-0 w-full h-full bg-green-600 opacity-20">
+                    <div className="">
                         <h1>Jamii Ya Wakulima shupavu</h1>
                         <h2>Mafunzo ya kuboresha kilimo</h2>
                     </div>
