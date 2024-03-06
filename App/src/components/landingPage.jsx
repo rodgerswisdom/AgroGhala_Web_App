@@ -9,7 +9,13 @@ export default function LandingPageSection(){
                     alt = "landpage"
                     width={'100%'}
                 />
+                <div  className="w-full h-full bg-white absolute">
+                    <div className='text-green-500'>
+                        <h1>Jamii Ya Wakulima shupavu</h1>
+                    </div>
+                </div>
             </div>
+            
         
     );
 }
