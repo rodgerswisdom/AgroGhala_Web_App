@@ -8,12 +8,12 @@ export default function LandingPageSection(){
                     src={landingPageImage}
                     alt = "landpage"
                     width={'100%'}
+                    height={'100%'}
                 />
-                <div  className="absolute top-0 left-0 w-full h-full bg-green-600 opacity-20">
-                    <div className="">
-                        <h1>Jamii Ya Wakulima shupavu</h1>
-                        <h2>Mafunzo ya kuboresha kilimo</h2>
-                    </div>
+                <div  className="absolute top-0 left-0 w-full h-full bg-green-600 opacity-20"></div>
+                <div className="absolute top-0 left-0 w-3/5 h-full bg-white transform origin-top-left -skew-x-12 text-center ">
+                    <h1 className='text-black'><b>Jamii Ya </b><b className='text-green-600'>Wakulima shupavu</b></h1>
+                    <h2 className='text-green-600'><b>Mafunzo </b><b className='text-black'>ya kuboresha kilimo</b></h2>
                 </div>
             </div>
             
