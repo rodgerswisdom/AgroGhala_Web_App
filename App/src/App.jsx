@@ -7,8 +7,8 @@ function App() {
   
   return (
     < >
-    <div>
-     <LandingPageSection className="w-full h-full bg-black"/>
+    <div> 
+     <LandingPageSection />
     </div>
     </>
   )
