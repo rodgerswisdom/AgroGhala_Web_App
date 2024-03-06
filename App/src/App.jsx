@@ -6,7 +6,7 @@ import LandingPageSection from './components/landingPage'
 function App() {
   
   return (
-    < >
+    <>
      <LandingPageSection />
     </>
   )
