@@ -17,7 +17,7 @@ export default function LandingPageSection(){
 
                     {/* landing page button */}
                     <div >
-                        <button className=' bg-green-600'>Je, una swali? Uliza na utajibiwa</button>
+                        <button className=' bg-green-600 w-3/4'>Je, una swali? Uliza na utajibiwa</button>
                     </div>
                 </div>
             </div>
