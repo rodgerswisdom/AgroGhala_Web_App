@@ -1,9 +1,14 @@
+
+
 #root {
   max-width: 1440px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-} 
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 
 .logo {
   height: 6em;
@@ -17,6 +22,8 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+
+
 
 
 
