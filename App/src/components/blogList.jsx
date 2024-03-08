@@ -7,15 +7,15 @@ const BlogList = ()=>{
     return(
         <section className="p-2 m-1.5">
             <h1>Featured</h1><br />
-            <div className="fp-2 m-1.5">
-                <div className="image">
+            <div className="fp-2 m-1.5 relative">
+                <div className="image static">
                     <img
                         src={imageUrl}
                         alt = "corn seeds"
                     /> 
                 </div>
                
-                <div className="highlight bg-green-100 absolute  h-24 p-2 m-2" >
+                <div className="highlight bg-green-100 absolute top-1/4 left-1/4 h-24 p-2 m-2" >
                     <h2>DK 8031, 8033, 777 and H6213. Which one should you grow in a high altitude area?</h2> 
                 </div>
                 <Spacer />
@@ -25,7 +25,7 @@ const BlogList = ()=>{
                         alt = "fertilizer"
                     /> 
                 </div>
-                <div className="highlight">
+                <div className="highlight bg-green-100 absolute bottom-1/4 left-1/4 h-24 p-2 m-2">
                     <h2>Ni yepi ya kuzingatia ninapochagua ni mbolea ipi nitatumia shambani?</h2> 
                 </div>
             </div>
