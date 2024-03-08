@@ -1,18 +1,19 @@
+import imageUrl from "../assets/images/fertilizer_pack.webp";
+
 const BlogList = ()=>{
 
-    const imageUrl = 'https://www.istockphoto.com/photo/green-plastic-bottles-with-non-freezing-cleaning-liquid-gm1329468282-413185287?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffertilizer-packs&utm_medium=affiliate&utm_source=unsplash&utm_term=fertilizer+packs%3A%3A%3A';
 
     return(
-        <section>
+        <section className="p-2 m-1.5">
             <h1>Featured</h1><br />
-            <div className="featured">
+            <div className="fp-2 m-1.5">
                 <div className="image">
                     <img
                         src={imageUrl}
                         alt = "corn seeds"
                     /> 
                 </div>
-                <div className="highlight">
+                <div className="highlight bg-green-100 absolute  h-24 p-2 m-2" >
                     <h2>DK 8031, 8033, 777 and H6213. Which one should you grow in a high altitude area?</h2> 
                 </div>
                 <div className="image">
