@@ -1,6 +1,6 @@
 const BlogList = ()=>{
 
-    const imageUrl = 'https://www.istockphoto.com/photo/green-plastic-bottles-with-non-freezing-cleaning-liquid-gm1329468282-413185287?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffertilizer-packs&utm_medium=affiliate&utm_source=unsplash&utm_term=fertilizer+packs%3A%3A%3A'
+    const imageUrl = 'https://www.istockphoto.com/photo/green-plastic-bottles-with-non-freezing-cleaning-liquid-gm1329468282-413185287?utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffertilizer-packs&utm_medium=affiliate&utm_source=unsplash&utm_term=fertilizer+packs%3A%3A%3A';
 
     return(
         <section>
