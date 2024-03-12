@@ -9,6 +9,7 @@ export default function LandingPageSection(){
                     alt = "landpage"
                     width={'100%'}
                     height={'100%'}
+                    height={'100%'}
                 />
                 <div  className="absolute top-0 left-0 w-full h-full bg-green-600 opacity-20"></div>
                 <div className="absolute top-0 left-0 w-3/5 h-full bg-white transform origin-top-left -skew-x-12 text-center ">
